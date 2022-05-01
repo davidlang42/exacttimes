@@ -24,5 +24,5 @@ But by all means, [buy me a coffee](https://ko-fi.com/davidlang42).
 * Push changes to apps scripts: `clasp push`
   * Warning: This will overwrite any changes made directly on google apps scripts
 * Find existing deployment: `clasp deployments`
-  * Returns deployment id: `TBA`
+  * Returns deployment id: `- AKfycbwbobNmATNiVksctUb1JM5vOImT7Q4KFnwnV0pGuEhK3wlFU2eIJLauxpj7IOfVHIja4A @1 - MVP`
 * Create version & update existing deployment: `clasp deploy -i [deploymentId] -d "[description]"`
