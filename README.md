@@ -1,4 +1,4 @@
-# exacttimes
+# ExactTimes
 An add-on to see exact email times in Gmail.
 
 Gmail shows you when an email was sent to the nearest minute, but sometimes you need to know the exact second it was sent, for example when automated dioagnostic emails are sent. This add-on allows you to see the exact time for each message in the current thread.
