@@ -1,0 +1,26 @@
+{
+  "timeZone": "Australia/Sydney",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Exact Times",
+      "logoUrl": "https://drive.google.com/uc?id=1riD36_msYHgtFQgiWLO-uWuls9qlzHY8&export=download"
+    },
+    "gmail": {
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "onGmailMessageOpen"
+        }
+      ]
+    }
+  }
+}
